@@ -1,7 +1,7 @@
 const httpServer = require("http").createServer();
 const io = require("socket.io")(httpServer, {
   cors: {
-    origin: "http://localhost:8080",
+    origin: "https://private-chat.augy.xyz:8080",
   },
 });
 
@@ -48,5 +48,5 @@ io.on("connection", (socket) => {
 const PORT = process.env.PORT || 3000;
 
 httpServer.listen(PORT, () =>
-  console.log(`server listening at http://localhost:${PORT}`)
+  console.log(`server listening at https://private-chat.augy.xyz:${PORT}`)
 );
