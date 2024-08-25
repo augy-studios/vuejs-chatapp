@@ -137,7 +137,7 @@ export default {
   bottom: 0;
   width: 260px;
   overflow-x: hidden;
-  background-color: #3f0e40;
+  background-color: #73c273;
   color: white;
 }
 
