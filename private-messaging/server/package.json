@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "build": "node index.js"
   },
-  "author": "Damien Arrachequesne <damien.arrachequesne@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "socket.io": "^3.1.1"
