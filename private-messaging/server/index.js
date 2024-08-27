@@ -1,7 +1,7 @@
 const httpServer = require("http").createServer();
 const io = require("socket.io")(httpServer, {
   cors: {
-    origin: "https://private-chat.augy.xyz:8080",
+    origin: "https://private-chat.augy.xyz",
   },
 });
 

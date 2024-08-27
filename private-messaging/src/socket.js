@@ -1,6 +1,6 @@
 import { io } from "socket.io-client";
 
-const URL = "https://private-chat.augy.xyz";
+const URL = "https://private-chat-server.augy.xyz";
 const socket = io(URL, { autoConnect: false });
 
 socket.onAny((event, ...args) => {
