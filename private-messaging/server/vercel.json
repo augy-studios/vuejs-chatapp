@@ -9,7 +9,7 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "cluster.js"
+      "dest": "index.js"
     }
   ]
 }
